@@ -2,10 +2,10 @@
 
 ### Used Ansible to install Java 8 in WSL Debian environment
 
-- I have an Ansible playbook for installing openjdk8 on Debian:  
-  https://github.com/tmcphillips/ansible-playbooks/blob/master/debian/jdk8.yml
+- I have an Ansible playbook for installing openjdk8 on Debian: 
+  [ansible-playbooks/debian/jdk8.yml](https://github.com/tmcphillips/ansible-playbooks/blob/97214161a181a2f34f092db38fe2166e1eaeeb4e/debian/jdk8.yml)
 
-- On circe-win10 started Debian in WSL environment and confirmed that Java is not yet installed:
+- On circe-win10 started Debian in WSL environment and confirmed that Java is not currently installed:
 
     ```console
     tmcphill@circe-win10:~/GitRepos$ java -version
